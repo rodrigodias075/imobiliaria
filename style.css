@@ -4,13 +4,10 @@
 
 
     .casaalto {
-        padding: 100px;
-      }
-  
-      .casaalto h1 {
+        padding: 10px;
         text-align: left;
       }
-    }
+    
 
     /* Reduza o tamanho da fonte para melhor legibilidade */
     body {
