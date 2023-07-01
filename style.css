@@ -42,34 +42,12 @@
     }
 
     .navbar-collapse {
-        position: fixed;
-        top: 56px; /* Altura da barra de navegação */
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #333;
-        padding: 10px;
-        overflow-y: auto;
-        z-index: 9999;
-      }
-    
-      .navbar-nav {
-        flex-direction: column;
-      }
-    
-      .nav-item {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
+        top: 100px; /* Ajuste a altura conforme necessário */
       }
     
       .navbar-toggler {
-        position: absolute;
-        top: 20px;
-        right: 10px;
+        top: 10px; /* Ajuste a posição conforme necessário */
       }
-    
-    
 
   }
   
