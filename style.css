@@ -1,7 +1,9 @@
 /* Estilos gerais */
 @media screen and (max-width: 768px) {
     /* Ajustes para melhorar a visualização em dispositivos móveis */
-  
+      .casaalto {
+        padding: 10px;
+      }
     /* Reduza o tamanho da fonte para melhor legibilidade */
     body {
       font-size: 14px;
@@ -31,9 +33,7 @@
     .container {
       max-width: 100%;
     }
-    .casaalto {
-        padding: 10px;
-      }
+
   }
   
   
