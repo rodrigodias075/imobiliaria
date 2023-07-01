@@ -59,6 +59,10 @@
         top: 20px; /* Ajuste a posição conforme necessário */
         right: 10px;
     }
+
+    .navbar-brand{
+        font-size: 18px;
+    }
   }
   
   
