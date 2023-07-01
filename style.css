@@ -42,13 +42,23 @@
     }
 
     .navbar-collapse {
+        position: fixed;
         top: 100px; /* Ajuste a altura conforme necessário */
-      }
-    
-      .navbar-toggler {
-        top: 20px; /* Ajuste a posição conforme necessário */
-      }
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        padding: 10px;
+        overflow-y: auto;
+        z-index: 9999;
+    }
 
+    /* Ajuste a posição do botão de menu na barra de navegação */
+    .navbar-toggler {
+        position: absolute;
+        top: 20px; /* Ajuste a posição conforme necessário */
+        right: 10px;
+    }
   }
   
   
