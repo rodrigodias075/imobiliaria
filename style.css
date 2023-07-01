@@ -1,9 +1,17 @@
 /* Estilos gerais */
 @media screen and (max-width: 768px) {
     /* Ajustes para melhorar a visualização em dispositivos móveis */
-    .casaalto h1 {
-        font-size: 24px;
+
+
+    .casaalto {
+        padding: 100px;
       }
+  
+      .casaalto h1 {
+        text-align: left;
+      }
+    }
+
     /* Reduza o tamanho da fonte para melhor legibilidade */
     body {
       font-size: 14px;
