@@ -4,9 +4,11 @@
 
 
     .casaalto h1 {
-        font-size: 14px;
+        font-size: 20px;
         text-align: center;
-      }
+        margin: 0 auto;
+    }
+    
     
 
     /* Reduza o tamanho da fonte para melhor legibilidade */
