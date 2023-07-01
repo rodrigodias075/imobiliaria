@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fernando Corretor de Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist\css\bootstrap.min.css">
+    <script src="bootstrap-5.3.0-dist\js\bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Fernando Dias - Corretor Imobiliário</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="imoveis.html">Imóveis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+   </nav>   
+
+    <!-- Conteúdo da página -->
+    <div class="container">
+        <h1 class="text-center">Entre em Contato</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/5561998509113" class="btn btn-success">Enviar mensagem pelo WhatsApp</a>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <h3>Email</h3>
+                <form action="enviar_email.php" method="post">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="assunto" name="assunto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar email</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a Sexta: 9:00 às 18:00</p>
+                <p>Sábado e Domingo: Fechado</p>
+            </div>
+        </div>
+    </div>
+      
+    <footer>
+        <p>© 2023 Fernando Corretor de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

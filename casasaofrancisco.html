@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fernando Corretor de Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Fernando Dias - Corretor Imobiliário</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="imoveis.html">Imóveis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>   
+
+    <!-- Conteúdo da página -->
+    <div class="container">
+        <h1 class="titulo">Casa no Condomínio Residencial São Francisco</h1>
+        <br>
+        <br>
+        <!-- Carrossel de Fotos -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens\casa maria\frente casa.jpeg" class="d-block w-100" alt="Foto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\banheiro.jpeg" class="d-block w-100" alt="Foto 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\corredor interno.jpeg" class="d-block w-100" alt="Foto 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\corredor.jpeg" class="d-block w-100" alt="Foto 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\cozinha 2.jpeg" class="d-block w-100" alt="Foto 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\cozinha 3.jpeg" class="d-block w-100" alt="Foto 6">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\quarto 2.jpeg" class="d-block w-100" alt="Foto 7">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\quarto 3.jpeg" class="d-block w-100" alt="Foto 8">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\quarto 4.jpeg" class="d-block w-100" alt="Foto 9">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\sala.jpeg" class="d-block w-100" alt="Foto 10">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens\casa maria\cozinha.jpeg" class="d-block w-100" alt="Foto 11">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+        <h2>____________________________</h2>
+        <!-- Descrição do Imóvel -->
+        <h2>Descrição do Imóvel</h2>
+        <p>Localizada no Condomínio Residencial São Francisco na Quadra 2, Setor Habitacional Água Quente</p>
+        <p>180m² de Terreno e Área Construída de 120m²</p>
+        <p>3 Quartos | Cozinha Gourmet Integrada | Quintal com Pergolato | Vaga para 2 Carros</p>
+        <p>Sala com Pé Direito Duplo | Cozinha Gourmet com Churrasqueira </p>
+        <p>Área Gourmet Integrada com a Cozinha | Banheiro Social | Área de Serviço Privativa</p>
+        <h2>____________________________</h2>
+         <!-- Valor do Imóvel -->
+         <h2>Valor do Imóvel</h2>
+         <h2><span class="valor-imovel">CONSULTE O CORRETOR</span></h2>
+         
+        <h2>____________________________</h2>
+
+        <!-- Enviar Proposta por E-mail -->
+        <h2>Enviar Proposta por E-mail</h2>
+        <form action="enviar_proposta.php" method="post">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Proposta</button>
+        </form>
+        <h2>____________________________________</h2>
+
+        
+        <!-- Enviar Proposta por WhatsApp -->
+        <h2>Enviar Proposta por WhatsApp</h2>
+        <p>Entre em contato pelo WhatsApp para enviar sua proposta:</p>
+        <a href="https://api.whatsapp.com/send?phone=5561998509113&text=Tenho%20interesse%20no%20im%C3%B3vel%20XYZ" target="_blank" class="btn btn-success">Enviar Mensagem</a>
+        
+        <h2>____________________________</h2>
+        
+        <!-- Localização do Imóvel -->
+        <h2>Localização do Imóvel</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3836.432540609049!2d-48.233231590335585!3d-15.938772676461024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bd088c83a81e7%3A0xeb8bc10b6bf6af44!2sResidencial%20S%C3%A3o%20Francisco!5e0!3m2!1spt-BR!2sbr!4v1688249487901!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+      
+    <footer>
+        <p>© 2023 Fernando Corretor de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
