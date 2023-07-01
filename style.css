@@ -3,8 +3,8 @@
     /* Ajustes para melhorar a visualização em dispositivos móveis */
 
 
-    .casaalto {
-        padding: 10px;
+    .casaalto h1 {
+        font-size: 12px;
         text-align: left;
       }
     
