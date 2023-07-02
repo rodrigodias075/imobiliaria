@@ -10,7 +10,7 @@
     }
     .casaalto {
         padding: 56px 0;
-        background-size: contain;
+        background-size: cover;
     }
     /* Reduza o tamanho da fonte para melhor legibilidade */
     body {
