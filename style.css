@@ -136,7 +136,7 @@ nav {
     padding: 230px;
     text-align: center;
     background-image: url('imagens/casa-alto-padrao-01.jpg');
-    background-size:cover;
+    background-size:contain;
     background-position: center;
 }
 .casaalto h1 {
