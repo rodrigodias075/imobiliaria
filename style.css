@@ -8,6 +8,9 @@
         text-align: center;
         margin: 0 auto;
     }
+    .casaalto {
+        padding: 100px;
+        background-size: contain;}
     
     
 
@@ -136,7 +139,7 @@ nav {
     padding: 230px;
     text-align: center;
     background-image: url('imagens/casa-alto-padrao-01.jpg');
-    background-size:contain;
+    background-size:cover;
     background-position: center;
 }
 .casaalto h1 {
