@@ -9,11 +9,9 @@
         margin: 0 auto;
     }
     .casaalto {
-        padding: 100px;
-        background-size: contain;}
-    
-    
-
+        padding: 56px 0;
+        background-size: contain;
+    }
     /* Reduza o tamanho da fonte para melhor legibilidade */
     body {
       font-size: 14px;
