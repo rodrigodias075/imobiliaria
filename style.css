@@ -136,12 +136,12 @@ nav {
 .casaalto {
     padding: 230px;
     text-align: center;
-    background-image: url('imagens/sala.jpeg');
+    background-image: url('imagens/casa-alto-padrao-01.jpg');
     background-size:cover;
     background-position: center;
 }
 .casaalto h1 {
-    color: orangered;
+    color: rgb(74, 74, 251);
     text-shadow: 2px 2px 4px white;
 }
 .casaalto {
